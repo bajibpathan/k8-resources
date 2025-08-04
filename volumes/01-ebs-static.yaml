@@ -56,7 +56,6 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    labels:
       purpose: ebs-static-demo
       project: roboshop
   ports:
